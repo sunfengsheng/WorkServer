@@ -13,6 +13,7 @@ alter table user_info modify Id int auto_increment;
 CREATE TABLE user_works(
     `Id` int(11) NOT NULL,
     `Title` varchar(255) NOT NULL,
+    `Content` varchar(255) NULL,
     `ImageIds` varchar(255) NULL,
     `ReviewIds` varchar(255) NULL,
 PRIMARY KEY (`Id`)
